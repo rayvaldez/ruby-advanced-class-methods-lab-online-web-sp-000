@@ -13,5 +13,6 @@ class Song
   def self.create(name)
     @name = name
     @@all << name
+    @name
   end
 end
