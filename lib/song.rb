@@ -22,6 +22,6 @@ class Song
     n = self.new
     n.name = name_string
     @@all << name_string
-
+    n
   end
 end
