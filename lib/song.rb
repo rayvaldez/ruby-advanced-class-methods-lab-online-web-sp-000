@@ -12,7 +12,7 @@ class Song
 
   def self.create(name)
     @name = name
-    @@all << name
-    return @name
+    @@all << @name
+    return name
   end
 end
