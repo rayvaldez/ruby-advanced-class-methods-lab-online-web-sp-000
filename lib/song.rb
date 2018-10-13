@@ -13,5 +13,8 @@ class Song
   end
 
   def self.create(name)
+    @name = name
+    @@all << name
+    return name
   end
 end
