@@ -13,6 +13,6 @@ class Song
   end
 
   def self.create(name)
-    binding.pry
   end
+  binding.pry
 end
