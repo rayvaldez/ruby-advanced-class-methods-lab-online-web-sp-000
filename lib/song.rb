@@ -13,8 +13,7 @@ class Song
   end
 
   def self.create
-    @name = name
-    @@all << name
-    return name
+    binding.pry
+
   end
 end
