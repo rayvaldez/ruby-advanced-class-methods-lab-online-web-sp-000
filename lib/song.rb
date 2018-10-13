@@ -18,7 +18,10 @@ class Song
     name
   end
 
-  def self.new_by_name
+  def self.new_by_name(name_string)
+    n = self.new
+    n.name = name_string
+    @@all << name_string
 
   end
 end
