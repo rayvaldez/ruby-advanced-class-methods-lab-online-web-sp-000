@@ -14,5 +14,4 @@ class Song
 
   def self.create(name)
   end
-  binding.pry
 end
